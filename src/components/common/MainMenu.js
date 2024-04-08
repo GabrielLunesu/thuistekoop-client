@@ -1,5 +1,7 @@
 import {
   homeItems,
+  homeItemsNew,
+  listingItemsNew,
   blogItems,
   listingItems,
   propertyItems,
@@ -16,7 +18,7 @@ const MainMenu = () => {
   const [activeLink, setActiveLink] = useState("");
 
   useEffect(() => {
-    homeItems.forEach((elm) => {
+    homeItemsNew.forEach((elm) => {
       if (elm.href.split("/")[1] == pathname.split("/")[1]) {
         setTopMenu("home");
       }
@@ -39,7 +41,7 @@ const MainMenu = () => {
         }
       })
     );
-    listingItems.forEach((item) =>
+    listingItemsNew.forEach((item) =>
       item.submenu.forEach((elm) => {
         if (elm.href.split("/")[1] == pathname.split("/")[1]) {
           setTopMenu("listing");
@@ -65,7 +67,7 @@ const MainMenu = () => {
         </a>
         {/* Level Two*/}
         <ul className="sub-menu">
-          {homeItems.map((item, index) => (
+          {homeItemsNew.map((item, index) => (
             <li key={index}>
               <Link className={`${handleActive(item.href)}`} href={item.href}>
                 {item.label}
@@ -84,7 +86,7 @@ const MainMenu = () => {
           <span className="arrow"></span>
         </a>
         <ul className="row dropdown-megamenu sub-menu">
-          {listingItems.map((item, index) => (
+          {listingItemsNew.map((item, index) => (
             <li className="col mega_menu_list" key={index}>
               <h4 className="title">{item.title}</h4>
               <ul className="sub-menu">

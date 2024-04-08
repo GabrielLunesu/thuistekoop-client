@@ -1,3 +1,18 @@
+// NEW items for new temporary nav!
+export const homeItemsNew = [
+  { href: "/home-v2", label: "Home" },
+];
+
+export const listingItemsNew = [
+  {
+    title: "See all listings",
+    submenu: [
+      { label: "All Listings", href: "/grid-default" },
+      { label: "All Listings With Search", href: "/banner-search-v2" },
+    ],
+  }
+];
+
 export const homeItems = [
   { href: "/", label: "Home v1" },
   { href: "/home-v2", label: "Home v2" },
@@ -10,6 +25,8 @@ export const homeItems = [
   { href: "/home-v9", label: "Home v9" },
   { href: "/home-v10", label: "Home v10" },
 ];
+
+
 
 export const listingItems = [
   {
