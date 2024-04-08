@@ -3293,7 +3293,7 @@ li {
 
 /*Home 2 Banner Content*/
 .home2-hero-banner {
-    background-image: url(../images/home/home-2.jpg);
+    background-image: url(../images/home/home-v1.png);
     background-position: center center;
     background-repeat: no-repeat;
     height: 650px;
@@ -3326,7 +3326,7 @@ li {
 }
 
 .home-banner-style2 {
-    background-color: #181a20;
+    background-color: #ffffff5d;
     position: relative;
 }
 .home-banner-style2 .home-style2 {
@@ -3349,10 +3349,12 @@ li {
     }
 }
 .advance-content-style2 {
+    border: #000000!important;
     position: relative;
 }
 .advance-content-style2 .form-control {
-    border: none;
+    border-radius: 20px;
+    border: #212786;
 }
 .advance-content-style2 .form-control:focus {
     border: none;
@@ -6685,8 +6687,8 @@ textarea:focus {
 }
 
 .btn-thm {
-    background-color: #eb6753;
-    border: 1px solid #eb6753;
+    background-color: #212786;
+   
     color: #ffffff;
 }
 
@@ -6707,7 +6709,7 @@ textarea:focus {
 .btn-light-gray:before,
 .btn-transparent:before,
 .btn-transparent2:before {
-    background-color: #ee4c34;
+    background-color: #ffffff;
     content: "";
     height: 100%;
     left: -100%;
@@ -6736,7 +6738,7 @@ textarea:focus {
 .btn-light-gray:hover,
 .btn-transparent:hover,
 .btn-transparent2:hover {
-    color: #ffffff;
+    color: #212786;
 }
 .ud-btn:hover:before,
 .btn-gray:hover:before,
@@ -6834,6 +6836,7 @@ textarea:focus {
 }
 
 .add-property {
+   
     font-size: 14px;
     height: 47px;
     padding: 9px 22px;
@@ -6844,8 +6847,8 @@ textarea:focus {
 
 .menu-btn {
     background-color: transparent;
-    border: 1px solid #ffffff;
-    color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
 }
 .menu-btn:hover {
     background-color: #eb6753;
@@ -7211,7 +7214,7 @@ header.menu-home10 .ace-responsive-menu .visible_list a.list-item:hover:before {
 }
 header.menu-home10 .ace-responsive-menu .megamenu_style a.list-item:before,
 header.menu-home10 .ace-responsive-menu .visible_list a.list-item:before {
-    background-color: #eb6753;
+    background-color: #212786;
     content: "";
     position: absolute;
     height: 2px;
@@ -7319,7 +7322,7 @@ header.nav-homepage-style .ace-responsive-menu .visible_list a.list-item:hover {
     }
 }
 header.nav-homepage-style .ace-responsive-menu a {
-    color: #ffffff;
+    color: black;
     font-family: var(--title-font-family);
     font-weight: 600;
 }
@@ -7328,7 +7331,7 @@ header.nav-homepage-style .header-logo.logo2 {
 }
 header.nav-homepage-style .sidemenu-btn,
 header.nav-homepage-style .login-info {
-    color: #ffffff;
+    color: black;
 }
 header.nav-homepage-style .sidemenu-btn .img-2 {
     display: none;
@@ -7407,7 +7410,7 @@ header.nav-homepage-style.at-home5 .ace-responsive-menu .visible_list a.list-ite
 }
 header.nav-homepage-style.at-home5 .ace-responsive-menu .megamenu_style a.list-item:before,
 header.nav-homepage-style.at-home5 .ace-responsive-menu .visible_list a.list-item:before {
-    background-color: #ffffff;
+    background-color: #212786;
     bottom: 0;
     content: "";
     position: absolute;
@@ -7420,7 +7423,7 @@ header.nav-homepage-style.at-home5 .ace-responsive-menu .visible_list a.list-ite
 }
 header.nav-homepage-style.at-home5.sticky .ace-responsive-menu .megamenu_style a.list-item:before,
 header.nav-homepage-style.at-home5.sticky .ace-responsive-menu .visible_list a.list-item:before {
-    background-color: #181a20;
+    background-color: #212786;
 }
 
 /*== Mobile Menu Css ==*/
@@ -7793,7 +7796,7 @@ li.mm-listitem:focus {
     z-index: 2;
 }
 .advance-search-tab .nav.nav-tabs {
-    background-color: #ffffff;
+    background-color: black;
     border-bottom: 1px solid #dddddd;
     border-radius: 12px 12px 0 0;
     -webkit-box-pack: center;
@@ -7888,10 +7891,12 @@ li.mm-listitem:focus {
 }
 .advance-style2 .tab-content {
     background-color: #ffffff;
+    border: 3px solid #212786; /* Adding a 2px solid black border */
     border-radius: 95px;
     padding: 10px;
     position: relative;
 }
+
 @media (max-width: 767.98px) {
     .advance-style2 .tab-content {
         border-radius: 20px;

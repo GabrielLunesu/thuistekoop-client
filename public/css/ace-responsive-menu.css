@@ -48,7 +48,7 @@ header.nav-homepage-style .ace-responsive-menu .visible_list a.list-item {
 	padding: 7px 22px;
 }
 header.nav-homepage-style .ace-responsive-menu a {
-	color: #ffffff;
+	color: #000000;
 	font-family: var(--title-font-family);
 	font-weight: 600;
 }

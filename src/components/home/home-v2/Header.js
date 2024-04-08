@@ -40,9 +40,9 @@ const Header = () => {
                   <div className="logos mr40">
                     <Link className="header-logo logo1" href="/">
                       <Image
-                        width={138}
-                        height={44}
-                        src="/images/header-logo.svg"
+                        width={178} 
+                        height={74}
+                        src="/images/thuistekoop-logo.svg"
                         alt="Header Logo"
                       />
                     </Link>
@@ -69,7 +69,7 @@ const Header = () => {
                     className="login-info d-flex align-items-center me-3"
                     href="tel:+012305094502"
                   >
-                    <i className="far fa-phone fz16 me-2"></i>{" "}
+                    <i className="far fa-phone fz16 me-2" ></i>{" "}
                     <span className="d-none d-xl-block">2 911 098 7654</span>
                   </a>
                   <a
@@ -98,19 +98,13 @@ const Header = () => {
                   >
                     <Image
                       width={25}
-                      height={9}
+                      height={25}
                       className="img-1"
-                      src="/images/icon/nav-icon-white.svg"
+                      src="/images/icon/menubtn.svg"
                       alt="humberger menu"
                     />
 
-                    <Image
-                      width={25}
-                      height={9}
-                      className="img-2"
-                      src="/images/icon/nav-icon-dark.svg"
-                      alt="humberger menu"
-                    />
+                   
                   </a>
                 </div>
               </div>
