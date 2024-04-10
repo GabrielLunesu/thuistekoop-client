@@ -5,44 +5,82 @@ import SwiperCore, { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 
-const ExploreCities = () => {
+const ExploreProvincies = () => {
   const cities = [
     {
       id: 1,
-      name: "Los Angeles",
+      name: "Groningen",
       image: "/images/listings/city-listing-1.jpg",
-      number: 12,
+      number: 12,  
+      // number is how many properties there are in that province 
     },
     {
       id: 2,
-      name: "Miami",
+      name: "Friesland",
       image: "/images/listings/city-listing-1.jpg",
       number: 8,
     },
     {
       id: 3,
-      name: "New York",
+      name: "Drenthe",
       image: "/images/listings/city-listing-1.jpg",
       number: 15,
     },
     {
       id: 4,
-      name: "Chicago",
+      name: "Overijssel",
       image: "/images/listings/city-listing-1.jpg",
       number: 10,
     },
     {
       id: 5,
-      name: "Los Angeles",
+      name: "Flevoland",
       image: "/images/listings/city-listing-1.jpg",
       number: 12,
     },
     {
       id: 6,
-      name: "Miami",
+      name: "Gelderland",
       image: "/images/listings/city-listing-1.jpg",
       number: 8,
     },
+    {
+      id: 7,
+      name: "Utrecht",
+      image: "/images/listings/city-listing-1.jpg",
+      number: 8,
+    },
+    {
+      id: 8,
+      name: "Noord-Holland",
+      image: "/images/listings/city-listing-1.jpg",
+      number: 8,
+    },
+    {
+      id: 9,
+      name: "Zuid-Holland",
+      image: "/images/listings/city-listing-1.jpg",
+      number: 8,
+    },
+    {
+      id: 10,
+      name: "Zeeland",
+      image: "/images/listings/city-listing-1.jpg",
+      number: 8,
+    },
+    {
+      id: 11,
+      name: "Noord-Brabant",
+      image: "/images/listings/city-listing-1.jpg",
+      number: 8,
+    },
+    {
+      id: 12,
+      name: "Limburg",
+      image: "/images/listings/city-listing-1.jpg",
+      number: 8,
+    },
+  
     // Add more cities if needed
   ];
 
@@ -77,7 +115,7 @@ const ExploreCities = () => {
         {cities.map((city) => (
           <SwiperSlide key={city.id}>
             <div className="item">
-              <Link href="/header-map-style">
+              <Link href="/grid-default">
                 <div className="feature-style2 mb30">
                   <div className="feature-img">
                     <Image
@@ -102,4 +140,4 @@ const ExploreCities = () => {
   );
 };
 
-export default ExploreCities;
+export default ExploreProvincies;
