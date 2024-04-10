@@ -208,20 +208,21 @@ html {
 }
 
 // selct borderless
-.select-borderless {
-    .select__control {
-        border: none;
-        &.select__control--is-focused,
-        &.select__control--menu-is-open {
-            -webkit-box-shadow: none !important;
-            box-shadow: none !important; /* Remove box-shadow */
-            border-color: transparent; /* Remove border color */
-        }
+.select-borderless .select__control {
+    border: none;
+    &.select__control--is-focused,
+    &.select__control--menu-is-open {
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important; /* Remove box-shadow */
+        border-color: transparent; /* Remove border color */
     }
-    .select__indicator-separator {
-        background-color: transparent;
-    }
+  
 }
+
+.select-borderless .select__indicator-separator {
+    background-color: transparent;
+}
+
 
 // modal button
 .img-box-9 button {
