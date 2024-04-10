@@ -5143,9 +5143,11 @@ section {
     -webkit-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
+    border: 2px solid #212786; /* Add solid border */
 }
+
 .iconbox-style4 .icon {
-    background-color: rgba(235, 103, 83, 0.07);
+    background-color: rgb(170, 170, 170);
     border-radius: 50%;
     color: var(--headings-color);
     display: block;
