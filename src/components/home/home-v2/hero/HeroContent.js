@@ -18,8 +18,8 @@ const HeroContent = () => {
   ];
 
   return (
-    <div className="advance-style2 mt80 mt0-md mb60 mx-auto" data-aos="fade-up">
-      <ul className="nav nav-tabs p-0">
+    <div className="advance-style2 mt150 mt0-md mb40 mx-auto" data-aos="fade-up">
+      {/* <ul className="nav nav-tabs p-0">
         {tabs.map((tab) => (
           <li className="nav-item" key={tab.id}>
             <button
@@ -30,7 +30,7 @@ const HeroContent = () => {
             </button>
           </li>
         ))}
-      </ul>
+      </ul> */}
       <div className="tab-content">
         {tabs.map((tab) => (
           <div
@@ -48,7 +48,7 @@ const HeroContent = () => {
                           className="form-control "
                           type="text"
                           name="search"
-                          placeholder={`Enter Keyword for ${tab.label}`}
+                          placeholder={`Search on city or province...`}
                         />
                       </div>
                     </form>
