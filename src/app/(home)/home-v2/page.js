@@ -3,7 +3,7 @@ import Partner from "@/components/common/Partner";
 import Agents from "@/components/home/home-v2/Agents";
 import ApartmentType from "@/components/home/home-v2/ApartmentType";
 import Explore from "@/components/home/home-v2/Explore";
-import ExploreCities from "@/components/home/home-v2/ExploreCities";
+import ExploreProvincies from "@/components/home/home-v2/ExploreProvincies";
 import FeaturedListings from "@/components/home/home-v2/FeatuerdListings";
 import Header from "@/components/home/home-v2/Header";
 import Testimonial from "@/components/home/home-v2/Testimonial";
@@ -103,9 +103,9 @@ const Home_V2 = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                <h2 className="title">Explore Cities</h2>
+                <h2 className="title">Explore Provincies</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Checkout our properties per province!
                 </p>
               </div>
             </div>
@@ -140,7 +140,7 @@ const Home_V2 = () => {
           <div className="row">
             <div className="col-lg-12" data-aos="fade-up" data-aos-delay="300">
               <div className="property-city-slider">
-                <ExploreCities />
+                <ExploreProvincies />
               </div>
             </div>
           </div>
