@@ -10,74 +10,74 @@ const ExploreProvincies = () => {
     {
       id: 1,
       name: "Groningen",
-      image: "/images/listings/city-listing-1.jpg",
+      image: "/images/listings/provincies/1.png",
       number: 12,  
       // number is how many properties there are in that province 
     },
     {
       id: 2,
       name: "Friesland",
-      image: "/images/listings/city-listing-1.jpg",
+      image: "/images/listings/provincies/2.png",
       number: 8,
     },
     {
       id: 3,
       name: "Drenthe",
-      image: "/images/listings/city-listing-1.jpg",
+      image: "/images/listings/provincies/3.png",
       number: 15,
     },
     {
       id: 4,
       name: "Overijssel",
-      image: "/images/listings/city-listing-1.jpg",
+      image: "/images/listings/provincies/4.png",
       number: 10,
     },
     {
       id: 5,
       name: "Flevoland",
-      image: "/images/listings/city-listing-1.jpg",
+      image: "/images/listings/provincies/5.png",
       number: 12,
     },
     {
       id: 6,
       name: "Gelderland",
-      image: "/images/listings/city-listing-1.jpg",
+      image: "/images/listings/provincies/6.png",
       number: 8,
     },
     {
       id: 7,
       name: "Utrecht",
-      image: "/images/listings/city-listing-1.jpg",
+      image: "/images/listings/provincies/7.png",
       number: 8,
     },
     {
       id: 8,
       name: "Noord-Holland",
-      image: "/images/listings/city-listing-1.jpg",
+      image: "/images/listings/provincies/8.png",
       number: 8,
     },
     {
       id: 9,
       name: "Zuid-Holland",
-      image: "/images/listings/city-listing-1.jpg",
+      image: "/images/listings/provincies/9.png",
       number: 8,
     },
     {
       id: 10,
       name: "Zeeland",
-      image: "/images/listings/city-listing-1.jpg",
+      image: "/images/listings/provincies/10.png",
       number: 8,
     },
     {
       id: 11,
       name: "Noord-Brabant",
-      image: "/images/listings/city-listing-1.jpg",
+      image: "/images/listings/provincies/11.png",
       number: 8,
     },
     {
       id: 12,
       name: "Limburg",
-      image: "/images/listings/city-listing-1.jpg",
+      image: "/images/listings/provincies/12.png",
       number: 8,
     },
   
@@ -119,8 +119,8 @@ const ExploreProvincies = () => {
                 <div className="feature-style2 mb30">
                   <div className="feature-img">
                     <Image
-                      width={279}
-                      height={279}
+                      width={500}
+                      height={500}
                       className="w-100 h-100 cover"
                       src={city.image}
                       alt="city listings"
