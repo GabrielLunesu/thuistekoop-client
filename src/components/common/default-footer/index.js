@@ -16,15 +16,15 @@ const Footer = () => {
             <div className="footer-widget mb-4 mb-lg-5">
               <Link className="footer-logo" href="/">
                 <Image
-                  width={138}
-                  height={44}
+                  width={288}
+                  height={124}
                   className="mb40"
-                  src="/images/header-logo.svg"
+                  src="/images/thuistekoop-logo.svg"
                   alt=""
                 />
               </Link>
               <ContactMeta />
-              <AppWidget />
+              {/* <AppWidget /> */}
               <div className="social-widget">
                 <h6 className="text-white mb20">Follow us on social media</h6>
                 <Social />

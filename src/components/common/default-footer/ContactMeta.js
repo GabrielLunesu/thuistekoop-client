@@ -3,13 +3,13 @@ import React from "react";
 const ContactMeta = () => {
   const contactInfoList = [
     {
-      title: "Total Free Customer Care",
-      phone: "+(0) 123 050 945 02",
+      title: "Monday to friday - 9am to 5pm",
+      phone: "0618181818",
       phoneLink: "tel:+012305094502", // Changed phoneLink to tel: URI
     },
     {
-      title: "Need Live Support?",
-      mail: "hi@homez.com",
+      title: "Do you have questions?",
+      mail: "info@thuistekoop.nl",
       mailLink: "mailto:hi@homez.com", // Changed mailLink to direct email address
     },
   ];
