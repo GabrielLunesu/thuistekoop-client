@@ -159,9 +159,9 @@ const Home_V2 = () => {
                 data-wow-delay="300ms"
               >
                 <div className="main-title text-center">
-                  <h2 className="title">See How Realton Can Help</h2>
+                  <h2 className="title">How can we help you?</h2>
                   <p className="paragraph">
-                    Aliquam lacinia diam quis lacus euismod
+                    Buying or selling? We&apos;re here to help
                   </p>
                 </div>
               </div>
