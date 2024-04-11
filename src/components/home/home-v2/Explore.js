@@ -6,28 +6,28 @@ const Explore = () => {
     {
       icon: "/images/icon/property-buy-2.svg",
       title: "Buy a property",
-      text: "Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.",
+      text: "Looking to buy a property? Check out all our listings here!",
       linkText: "Find a home",
     },
     {
       icon: "/images/icon/property-sell-2.svg",
       title: "Sell a property",
-      text: "Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.",
-      linkText: "Place an ad",
+      text: "Looking to sell a property? Please go to TROA, our own real estate agency.",
+      linkText: "TROA ",
     },
-    {
-      icon: "/images/icon/property-rent-2.svg",
-      title: "Rent a property",
-      text: "Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.",
-      linkText: "Find a rental",
-    },
+    // {
+    //   icon: "/images/icon/property-rent-2.svg",
+    //   title: "Rent a property",
+    //   text: "Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.",
+    //   linkText: "Find a rental",
+    // },
   ];
 
   return (
     <>
       {iconboxData.map((item, index) => (
         <div
-          className="col-sm-6 col-lg-4"
+          className="col-sm-6 "
           key={index}
           data-aos="fade-up"
           data-aos-delay={(index + 1) * 100} // Increase delay for each item
