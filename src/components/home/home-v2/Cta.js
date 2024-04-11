@@ -45,13 +45,13 @@ const Cta = () => {
             >
               <div className="cta-style2">
                 <h2 className="cta-title">
-                  Start Listing or Buying a Property With Realton
+                  Register and start bidding on houses!
                 </h2>
                 <p className="cta-text">
                   Talk to our experts or Browse through more properties.
                 </p>
                 <Link href="/contact" className="ud-btn btn-dark mt10">
-                  Learn More
+                  Contact
                   <i className="fal fa-arrow-right-long" />
                 </Link>
               </div>
