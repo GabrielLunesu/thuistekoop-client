@@ -4,7 +4,7 @@ import Agents from "@/components/home/home-v2/Agents";
 import ApartmentType from "@/components/home/home-v2/ApartmentType";
 import Explore from "@/components/home/home-v2/Explore";
 import ExploreProvincies from "@/components/home/home-v2/ExploreProvincies";
-import FeaturedListings from "@/components/home/home-v2/FeatuerdListings";
+import NewListings from "@/components/home/home-v2/NewListings";
 import Header from "@/components/home/home-v2/Header";
 import Testimonial from "@/components/home/home-v2/Testimonial";
 import About from "@/components/home/home-v2/about";
@@ -65,9 +65,9 @@ const Home_V2 = () => {
           <div className="row align-items-center" data-aos="fade-up">
             <div className="col-lg-9">
               <div className="main-title2">
-                <h2 className="title">Discover Our Featured Listings</h2>
+                <h2 className="title">Discover Our New Listings</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Here are all our new listings!
                 </p>
               </div>
             </div>
@@ -85,7 +85,7 @@ const Home_V2 = () => {
           <div className="row">
             <div className="col-lg-12" data-aos="fade-up" data-aos-delay="200">
               <div className="feature-listing-slider">
-                <FeaturedListings />
+                <NewListings />
               </div>
             </div>
           </div>

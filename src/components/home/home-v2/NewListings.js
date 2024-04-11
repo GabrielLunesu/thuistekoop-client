@@ -6,7 +6,7 @@ import { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 
-const FeaturedListings = () => {
+const NewListings = () => {
   return (
     <>
       <Swiper
@@ -116,4 +116,4 @@ const FeaturedListings = () => {
   );
 };
 
-export default FeaturedListings;
+export default NewListings;
