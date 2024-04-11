@@ -177,15 +177,15 @@ const Home_V2 = () => {
       {/* End Explore Apartment */}
 
       {/* About Us */}
-      <section className="about-us">
+      {/* <section className="about-us">
         <div className="container">
           <About />
         </div>
-      </section>
+      </section> */}
       {/* End About Us */}
 
       {/* Our Testimonials */}
-      <section className="our-testimonial p-0">
+      {/* <section className="our-testimonial p-0">
         <div className="cta-banner2 bgc-f7 maxw1600 mx-auto pt110 pt60-md pb110 pb60-md bdrs12 position-relative">
           <div className="container">
             <div className="row">
@@ -215,11 +215,11 @@ const Home_V2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* End Our Testimonials */}
 
       {/* Exclusive Agents */}
-      <section className="pb90">
+      {/* <section className="pb90">
         <div className="container">
           <div className="row  justify-content-between align-items-center">
             <div className="col-auto">
@@ -233,36 +233,36 @@ const Home_V2 = () => {
                   Aliquam lacinia diam quis lacus euismod
                 </p>
               </div>
-            </div>
+            </div> */}
             {/* End header */}
 
-            <div className="col-auto mb30">
+            {/* <div className="col-auto mb30">
               <div className="row align-items-center justify-content-center">
                 <div className="col-auto">
                   <button className="agent_prev__active swiper_button">
                     <i className="far fa-arrow-left-long" />
                   </button>
-                </div>
+                </div> */}
                 {/* End prev */}
 
-                <div className="col-auto">
+                {/* <div className="col-auto">
                   <div className="pagination swiper--pagination agent_pagination__active" />
-                </div>
+                </div> */}
                 {/* End pagination */}
 
-                <div className="col-auto">
+                {/* <div className="col-auto">
                   <button className="agent_next__active swiper_button">
                     <i className="far fa-arrow-right-long" />
                   </button>
-                </div>
+                </div> */}
                 {/* End Next */}
-              </div>
-            </div>
+              {/* </div>
+            </div> */}
             {/* End .col for navigation and pagination */}
-          </div>
+          {/* </div> */}
           {/* End .row */}
 
-          <div className="row">
+          {/* <div className="row">
             <div className="col-lg-12" data-aos="fade-up" data-aos-delay="300">
               <div className="property-city-slider">
                 <Agents />
@@ -270,32 +270,32 @@ const Home_V2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Exclusive Agents */}
 
       {/* Our Partners */}
-      <section className="our-partners pt0">
+      {/* <section className="our-partners pt0">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 wow fadeInUp" data-wow-delay="100">
               <div className="main-title text-center">
                 <h6>Trusted by the world’s best</h6>
               </div>
-            </div>
+            </div> */}
             {/* End .col-12 */}
 
-            <div
+            {/* <div
               className="col-lg-12 text-center"
               data-aos="fade-up"
               data-aos-delay="300"
             >
               <Partner />
-            </div>
+            </div> */}
             {/* End .col-12 */}
-          </div>
+          {/* </div> */}
           {/* End .row */}
-        </div>
-      </section>
+        {/* </div>
+      </section> */}
       {/* End Our Partners */}
 
       {/* Our CTA */}
