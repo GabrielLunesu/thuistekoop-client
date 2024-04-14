@@ -30,7 +30,8 @@
     z-index: 9;
 
     .swiper_button {
-        background-color: #ffffff;
+        background-color: #212786;
+        color: #ffffff!important;
         box-shadow: 0px 10px 35px rgba(5, 16, 54, 0.1);
         border: none;
         border-radius: 50%;
@@ -41,8 +42,8 @@
         width: 50px;
         transition: all 0.3s ease;
         &:hover {
-            background-color: #eb6753;
-            color: #ffffff;
+            background-color: #ffffff;
+            color: #000000!important;
         }
         &.swiper-button-disabled {
             opacity: 0.5;
