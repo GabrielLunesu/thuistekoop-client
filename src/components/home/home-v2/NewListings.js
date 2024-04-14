@@ -49,15 +49,15 @@ const NewListings = () => {
                     alt="listings"
                   />
                   <div className="sale-sticker-wrap">
-                    {!listing.forRent && (
+                    {!listing.forSale && (
                       <div className="list-tag fz12">
                         <span className="flaticon-electricity me-2" />
-                        FEATURED
+                        NEW
                       </div>
                     )}
                   </div>
                   <div className="list-price">
-                    {listing.price} / <span>mo</span>
+                    {listing.price} 
                   </div>
                 </div>
                 <div className="list-content">
@@ -80,7 +80,7 @@ const NewListings = () => {
                   </div>
                   <hr className="mt-2 mb-2" />
                   <div className="list-meta2 d-flex justify-content-between align-items-center">
-                    <span className="for-what">For Rent</span>
+                    <span className="for-what">For Sale</span>
                     <div className="icons d-flex align-items-center">
                       <a href="#">
                         <span className="flaticon-fullscreen" />
