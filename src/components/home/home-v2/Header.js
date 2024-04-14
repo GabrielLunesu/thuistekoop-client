@@ -1,6 +1,7 @@
 "use client";
 
 import MainMenu from "@/components/common/MainMenu";
+import MainMenuStatic from "@/components/common/MainMenuStatic";
 import SidebarPanel from "@/components/common/sidebar-panel";
 import LoginSignupModal from "@/components/common/login-signup-modal";
 import Image from "next/image";
@@ -57,7 +58,7 @@ const Header = () => {
                   </div>
                   {/* End Logo */}
 
-                  <MainMenu />
+                  <MainMenuStatic />
                   {/* End Main Menu */}
                 </div>
               </div>
@@ -65,13 +66,13 @@ const Header = () => {
 
               <div className="col-auto">
                 <div className="d-flex align-items-center">
-                  <a
-                    className="login-info d-flex align-items-center me-3"
-                    href="tel:+012305094502"
-                  >
-                    <i className="far fa-phone fz16 me-2" ></i>{" "}
-                    <span className="d-none d-xl-block">2 911 098 7654</span>
-                  </a>
+                    {/* <a
+                      className="login-info d-flex align-items-center me-3"
+                      href="tel:+012305094502"
+                    >
+                      <i className="far fa-phone fz16 me-2" ></i>{" "}
+                      <span className="d-none d-xl-block">2 911 098 7654</span>
+                    </a> */}
                   <a
                     href="#"
                     className="login-info d-flex align-items-center"
