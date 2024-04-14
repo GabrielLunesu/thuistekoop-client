@@ -6,6 +6,7 @@ import LoginSignupModal from "@/components/common/login-signup-modal";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import MainMenuStatic from "./MainMenuStatic";
 
 const DefaultHeader = () => {
   const [navbar, setNavbar] = useState(false);
@@ -57,7 +58,7 @@ const DefaultHeader = () => {
                   </div>
                   {/* End Logo */}
 
-                  <MainMenu />
+                  <MainMenuStatic />
                   {/* End Main Menu */}
                 </div>
               </div>
