@@ -6,7 +6,7 @@ import PropertyFilteringBannerTwo from "@/components/listing/grid-view/banner-se
 import React from "react";
 
 export const metadata = {
-  title: "Listings || Thuistekoop - Real Estate NextJS Template",
+  title: "Listings || Thuistekoop ",
 };
 
 const BannerSearchV2 = () => {
