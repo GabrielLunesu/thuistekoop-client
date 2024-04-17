@@ -44,7 +44,7 @@ export default function PropertyFilteringBannerTwo() {
       setPriceRange([0,100000])
       setBedrooms(0)
       setBathroms(0)
-      setLocation('All Cities')
+      setLocation('All Provincies')
       setSquirefeet([])
       setyearBuild([0,2050])
       setCategories([])

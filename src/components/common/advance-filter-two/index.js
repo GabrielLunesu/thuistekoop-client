@@ -8,20 +8,25 @@ import Amenities from "./Amenities";
 const AdvanceFilterModal = ({ filterFunctions }) => {
   const catOptions = [
     { value: "Houses", label: "Houses" },
-    { value: "Office", label: "Office" },
+    { value: "Bungalow", label: "Bungalow" },
     { value: "Apartments", label: "Apartments" },
     { value: "Villa", label: "Villa" },
   ];
 
   const locationOptions = [
-    { value: "All Cities", label: "All Cities" },
-    { value: "California", label: "California" },
-    { value: "Los Angeles", label: "Los Angeles" },
-    { value: "New Jersey", label: "New Jersey" },
-    { value: "New York", label: "New York" },
-    { value: "San Diego", label: "San Diego" },
-    { value: "San Francisco", label: "San Francisco" },
-    { value: "Texas", label: "Texas" },
+    { value: "All Provinces", label: "All Provinces" },
+    { value: "Drenthe", label: "Drenthe" },
+    { value: "Flevoland", label: "Flevoland" },
+    { value: "Friesland", label: "Friesland" },
+    { value: "Gelderland", label: "Gelderland" },
+    { value: "Groningen", label: "Groningen" },
+    { value: "Limburg", label: "Limburg" },
+    { value: "Noord-Brabant", label: "Noord-Brabant" },
+    { value: "Noord-Holland", label: "Noord-Holland" },
+    { value: "Overijssel", label: "Overijssel" },
+    { value: "Utrecht", label: "Utrecht" },
+    { value: "Zeeland", label: "Zeeland" },
+    { value: "Zuid-Holland", label: "Zuid-Holland" }
   ];
 
   const customStyles = {
@@ -29,11 +34,11 @@ const AdvanceFilterModal = ({ filterFunctions }) => {
       return {
         ...styles,
         backgroundColor: isSelected
-          ? "#eb6753"
+          ? "#cbced4"
           : isHovered
-          ? "#eb675312"
+          ? "#cbced4"
           : isFocused
-          ? "#eb675312"
+          ? "#cbced4"
           : undefined,
       };
     },
