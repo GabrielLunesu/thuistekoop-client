@@ -43,7 +43,7 @@ const HeroContent = ({filterFunctions} ) => {
                       <span className="flaticon-settings" /> Advanced
                     </button>
                     <button
-                      className="advance-search-icon ud-btn btn-dark ms-4"
+                      className="advance-search-icon ud-btn btn-blue ms-4"
                       type="button"
                     >
                       <span className="flaticon-search" />
