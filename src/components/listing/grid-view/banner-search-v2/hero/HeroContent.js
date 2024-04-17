@@ -8,33 +8,11 @@ const HeroContent = ({filterFunctions} ) => {
     setActiveTab(tab);
   };
 
-  const tabs = [
-    { id: "buy", label: "Buy" },
-    { id: "rent", label: "Rent" },
-    { id: "sold", label: "Sold" },
-  ];
 
   return (
     <div className="advance-search-tab mt30  mx-auto animate-up-3">
-      <ul className="nav nav-tabs p-0 m-0">
-        {tabs.map((tab) => (
-          <li className="nav-item" key={tab.id}>
-            <button
-              className={`nav-link ${activeTab === tab.id ? "active" : ""}`}
-              onClick={() => handleTabClick(tab.id)}
-            >
-              {tab.label}
-            </button>
-          </li>
-        ))}
-      </ul>
-
       <div className="tab-content">
-        {tabs.map((tab) => (
-          <div
-            className={`${activeTab === tab.id ? "active" : ""} tab-pane`}
-            key={tab.id}
-          >
+          <div>
             <div className="advance-content-style1">
               <div className="row">
                 <div className="col-md-8 col-lg-9">
@@ -46,7 +24,6 @@ const HeroContent = ({filterFunctions} ) => {
                           className="form-control bgc-f7 bdrs12"
                           type="text"
                           name="search"
-                          placeholder={`Search Products for ${tab.label}`}
                           onChange={(e)=>filterFunctions && filterFunctions.setSearchQuery(e.target.value)}
                         />
                       </div>
@@ -66,7 +43,7 @@ const HeroContent = ({filterFunctions} ) => {
                       <span className="flaticon-settings" /> Advanced
                     </button>
                     <button
-                      className="advance-search-icon ud-btn btn-dark ms-4"
+                      className="advance-search-icon ud-btn btn-blue ms-4"
                       type="button"
                     >
                       <span className="flaticon-search" />
@@ -76,7 +53,7 @@ const HeroContent = ({filterFunctions} ) => {
               </div>
             </div>
           </div>
-        ))}
+
       </div>
     </div>
   );

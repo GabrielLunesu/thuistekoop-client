@@ -1738,7 +1738,7 @@ li {
     transition: all 0.4s ease;
 }
 .listing-style7 .list-tag {
-    background-color: #eb6753;
+    background-color: #212786;
     border-radius: 6px;
     color: #ffffff;
     font-family: var(--title-font-family);
@@ -1816,7 +1816,7 @@ li {
     font-weight: normal;
 }
 .listing-style7 .list-price {
-    color: #eb6753;
+    color: #212786;
     font-family: var(--title-font-family);
     font-weight: 600;
     font-size: 15px;
@@ -3261,10 +3261,21 @@ li {
     font-family: var(--title-font-family);
     font-weight: 600;
 }
+.advance-search-btn{
+    opacity: 1!important;
+}
+
 .advance-content-style1 .advance-search-btn span {
     padding-right: 10px;
     vertical-align: middle;
 }
+
+// btn blue (thuistekoop color)
+.btn-blue{
+    color: white;
+    background-color: #212786;
+}
+
 .advance-content-style1 .advance-search-icon {
     border-radius: 50%;
     display: block;
@@ -3381,6 +3392,7 @@ li {
     padding: 0;
 }
 .advance-content-style2 .advance-search-btn {
+    opacity: 1;
     background-color: transparent;
     border: none;
     color: var(--headings-color);
@@ -3465,6 +3477,7 @@ li {
     padding: 0;
 }
 .advance-content-style3 .advance-search-btn {
+    opacity: 1;
     background-color: transparent;
     border: none;
     color: var(--headings-color);
@@ -3998,7 +4011,7 @@ li {
 }
 
 .property-banner-style2 {
-    background-image: url(../images/listings/listing-banner-2.jpg);
+    background-image: url(../images/listings/thuistekoop-listingbanner1.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -6578,7 +6591,8 @@ textarea:focus {
     text-align: center;
     width: 40px;
     &:hover {
-        background-color: #f8d3cd;
+        background-color: grey;
+        color: white;
     }
 }
 .advance-feature-modal .btn-close:focus,
@@ -7847,12 +7861,23 @@ li.mm-listitem:focus {
     border-color: transparent;
     border-bottom-color: #181a20;
 }
+// search tab on banner search v2 parent:
 .advance-search-tab .tab-content {
+    opacity: 0.7; /* Default opacity */
     background-color: #ffffff;
-    border-radius: 0 12px 12px 12px;
+    border-radius: 12px;
     padding: 20px;
     position: relative;
-}
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+  
+  .advance-search-tab:focus-within .tab-content {
+    opacity: 1; /* Full opacity when clicked */
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+  }
 
 .advance-style2 {
     max-width: 970px;
@@ -7860,6 +7885,7 @@ li.mm-listitem:focus {
     z-index: 1;
 }
 .advance-style2 .nav.nav-tabs {
+    opacity: 1;;
     border-bottom: none;
     border-radius: 12px 12px 0 0;
     -webkit-box-pack: center;
@@ -8281,7 +8307,7 @@ li.mm-listitem:focus {
     box-shadow: 0px 1px 4px rgba(24, 26, 32, 0.07);
 }
 .mbp_pagination .page-item.active .page-link {
-    background-color: #eb6753;
+    background-color: #212786;
     color: #ffffff;
     -webkit-box-shadow: none;
     box-shadow: none;

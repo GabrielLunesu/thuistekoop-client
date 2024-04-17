@@ -41,9 +41,9 @@ const DefaultHeader = () => {
                   <div className="logos mr40">
                     <Link className="header-logo logo1" href="/">
                       <Image
-                        width={138}
-                        height={44}
-                        src="/images/header-logo2.svg"
+                        width={178}
+                        height={74}
+                        src="/images/thuistekoop-logo.svg"
                         alt="Header Logo"
                       />
                     </Link>
@@ -51,7 +51,7 @@ const DefaultHeader = () => {
                       <Image
                         width={138}
                         height={44}
-                        src="/images/header-logo2.svg"
+                        src="/images/thuistekoop-logo.svg"
                         alt="Header Logo"
                       />
                     </Link>
