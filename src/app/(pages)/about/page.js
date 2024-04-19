@@ -25,177 +25,279 @@ const About = () => {
       <MobileMenu />
       {/* End Mobile Nav  */}
 
-      {/* Breadcrumb Sections */}
-      <section className="breadcumb-section2 p-0">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="breadcumb-style1">
-                <h2 className="title">About Us</h2>
-                <div className="breadcumb-list">
-                  <a href="#">Home</a>
-                  <a href="#">About</a>
+      {/* from here about us starts */}
+
+      {/* hero */}
+      <div >
+        <section class="text-gray-600 body-font">
+          <div class="mx-auto px-5 items-center justify-center container flex flex-col">
+            <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover mb-5 object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+            <div class="text-center lg:w-2/3 w-full">
+              <p class="sm:text-4xl text-3xl mb-4 font-medium text-gray-900 title-font"><b>Thuistekoop</b>, the perfect place to buy
+                your home.</p>
+              <p class="mb-8 leading-relaxed">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled.
+                Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami snackwave tilde
+                chillwave ugh. Pour-over meditation PBR&B pickled ennui celiac mlkshk freegan photo booth af
+                fingerstache pitchfork.</p>
+              <div class="justify-center flex"></div>
+            </div>
+          </div>
+        </section>
+
+
+        {/* text with images section */}
+        <div class="md:flex-row items-center justify-between bg-white flex flex-col p-10">
+          <div data-aos="fade-right" class="mx-auto md:w-1/2 md:max-w-md">
+            <p class="font-semibold text-gray-700 text-3xl mb-6">About Us</p>
+            <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae id itaque
+              delectus voluptatum fugiat deserunt laudantium placeat fuga, corrupti perspiciatis quasi repellat eveniet, quos
+              aspernatur.</p>
+          </div>
+          <div data-aos="fade-left" class="md:w-1/2">
+            <img src="https://placehold.co/500x300" alt="About us image"
+              class="border-2 border-indigo-200 rounded-lg shadow-md" />
+          </div>
+        </div>
+
+
+
+        {/* steps section */}
+        <section class="text-gray-600 body-font">
+          <div class="px-5 py-2 mx-auto container flex flex-wrap">
+            <div class="pt-10 pb-20 sm:items-center md:w-2/3 mx-auto flex relative">
+              <div class="h-full w-6 items-center justify-center absolute inset-0 flex">
+                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              </div>
+              <div class="w-6 h-6 rounded-full mt-10 sm:mt-0 items-center justify-center bg-blue-900 text-white font-medium
+            text-sm flex-shrink-0 inline-flex relative z-10 title-font">1</div>
+              <div class="md:pl-8 sm:items-center sm:flex-row pl-6 items-start flex-grow flex flex-col">
+                <div class="w-24 h-24 bg-gray-200 text-indigo-500 rounded-full items-center justify-center flex-shrink-0
+              inline-flex">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-12 h-12 text-blue-900" viewbox="0 0 24 24" id="Windframe_7fEJ5zLaQ"><path d="M12 22s8-4
+                8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <div class="sm:pl-6 sm:mt-0 mt-6 flex-grow">
+                  <p class="font-medium text-gray-900 mb-1 text-xl title-font">Register your account</p>
+                  <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard
+                    cliche palo santo offal.</p>
+                </div>
+              </div>
+            </div>
+            <div class="pb-20 sm:items-center md:w-2/3 mx-auto flex relative">
+              <div class="h-full w-6 items-center justify-center absolute inset-0 flex">
+                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              </div>
+              <div class="w-6 h-6 rounded-full mt-10 sm:mt-0 items-center justify-center bg-blue-900 text-white font-medium
+            text-sm flex-shrink-0 inline-flex relative z-10 title-font">2</div>
+              <div class="md:pl-8 sm:items-center sm:flex-row pl-6 items-start flex-grow flex flex-col">
+                <div class="w-24 h-24 bg-gray-200 text-indigo-500 rounded-full items-center justify-center flex-shrink-0
+              inline-flex">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-12 h-12 text-blue-900" viewbox="0 0 24 24" id="Windframe__ELmFSjNw"><path d="M22 12h-4l-3 9L9
+                3l-3 9H2"/></svg>
+                </div>
+                <div class="sm:pl-6 sm:mt-0 mt-6 flex-grow">
+                  <p class="font-medium text-gray-900 mb-1 text-xl title-font">ID check.</p>
+                  <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard
+                    cliche palo santo offal.</p>
+                </div>
+              </div>
+            </div>
+            <div class="pb-20 sm:items-center md:w-2/3 mx-auto flex relative">
+              <div class="h-full w-6 items-center justify-center absolute inset-0 flex">
+                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              </div>
+              <div class="w-6 h-6 rounded-full mt-10 sm:mt-0 items-center justify-center bg-blue-900 text-white font-medium
+            text-sm flex-shrink-0 inline-flex relative z-10 title-font">3</div>
+              <div class="md:pl-8 sm:items-center sm:flex-row pl-6 items-start flex-grow flex flex-col">
+                <div class="w-24 h-24 bg-gray-200 text-indigo-500 rounded-full items-center justify-center flex-shrink-0
+              inline-flex">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-12 h-12 text-blue-900" viewbox="0 0 24 24" id="Windframe_Epcd4EApn"><circle cx="12" cy="5"
+                      r="3" /><path d="M12 22V8M5 12H2a10 10 0 0020 0h-3" /></svg>
+                </div>
+                <div class="sm:pl-6 sm:mt-0 mt-6 flex-grow">
+                  <p class="font-medium text-gray-900 mb-1 text-xl title-font">Start bidding!</p>
+                  <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard
+                    cliche palo santo offal.</p>
+                </div>
+              </div>
+            </div>
+            <div class="pb-10 sm:items-center md:w-2/3 mx-auto flex relative">
+              <div class="h-full w-6 items-center justify-center absolute inset-0 flex">
+                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              </div>
+              <div class="w-6 h-6 rounded-full mt-10 sm:mt-0 items-center justify-center bg-blue-900 text-white font-medium
+            text-sm flex-shrink-0 inline-flex relative z-10 title-font">4</div>
+              <div class="md:pl-8 sm:items-center sm:flex-row pl-6 items-start flex-grow flex flex-col">
+                <div class="w-24 h-24 bg-gray-200 text-indigo-500 rounded-full items-center justify-center flex-shrink-0
+              inline-flex">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-12 h-12 text-blue-900" viewbox="0 0 24 24" id="Windframe_pxAj3E0BD"><path d="M20 21v-2a4 4 0
+                00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4" /></svg>
+                </div>
+                <div class="sm:pl-6 sm:mt-0 mt-6 flex-grow">
+                  <p class="font-medium text-gray-900 mb-1 text-xl title-font">Bid accepted.</p>
+                  <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard
+                    cliche palo santo offal.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Feature section */}
+        <section class="text-gray-600 body-font">
+          <div class="px-5 py-12 mx-auto container">
+            <div class="text-center w-full mb-20 flex flex-col">
+              <p class="sm:text-3xl text-2xl font-medium mb-4 text-gray-900 title-font">Master Cleanse Reliac Heirloom</p>
+              <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn
+                asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably havent heard of them man bun
+                deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+            </div>
+            <div class="mt-3 text-center flex flex-wrap -m-4">
+              <div class="md:w-1/4 sm:w-1/2 w-full p-4">
+                <div class="px-4 py-6 rounded-lg border-2 border-gray-200">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="text-blue-900 w-12 h-12 mb-3 inline-block" viewbox="0 0 24 24" id="Windframe_Ic0hhP8le"><path
+                      d="M8 17l4 4 4-4m-4-5v9" /><path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29" /></svg>
+                  <p class="font-medium text-3xl text-gray-900 title-font">60%</p>
+                  <p class="leading-relaxed">off properties sell above value</p>
+                </div>
+              </div>
+              <div class="md:w-1/4 sm:w-1/2 w-full p-4">
+                <div class="px-4 py-6 rounded-lg border-2 border-gray-200">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="text-blue-900 w-12 h-12 mb-3 inline-block" viewbox="0 0 24 24" id="Windframe_F3vf5P9ia"><path
+                      d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0
+                00-3-3.87m-4-12a4 4 0 010 7.75"/></svg>
+                  <p class="font-medium text-3xl text-gray-900 title-font">1.3K</p>
+                  <p class="leading-relaxed">Users</p>
+                </div>
+              </div>
+              <div class="md:w-1/4 sm:w-1/2 w-full p-4">
+                <div class="px-4 py-6 rounded-lg border-2 border-gray-200">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="text-blue-900 w-12 h-12 mb-3 inline-block" viewbox="0 0 24 24" id="Windframe_9SXejQSs7"><path
+                      d="M3 18v-6a9 9 0 0118 0v6" /><path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0
+                002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"/></svg>
+                  <p class="font-medium text-3xl text-gray-900 title-font">74</p>
+                  <p class="leading-relaxed">Files</p>
+                </div>
+              </div>
+              <div class="md:w-1/4 sm:w-1/2 w-full p-4">
+                <div class="px-4 py-6 rounded-lg border-2 border-gray-200">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="text-blue-900 w-12 h-12 mb-3 inline-block" viewbox="0 0 24 24" id="Windframe_e2TDrG1Ev"><path
+                      d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
+                  <p class="font-medium text-3xl text-gray-900 title-font">46</p>
+                  <p class="leading-relaxed">Places</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        {/* statistics */}
+      </div>
+      <div class="bg-white pt-16 pr-4 pb-16 pl-4 md:px-24 lg:px-8 lg:py-20">
+        <div class="mr-auto ml-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+          <div class="mr-auto ml-auto sm:mx-auto lg:max-w-2xl max-w-xl">
+            <div class="mt-0 mr-0 mb-16 ml-0 sm:text-center flex flex-col">
+              <div></div>
+              <div class="mt-0 mr-auto mb-6 ml-auto text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl
+            md:mx-auto max-w-lg font-sans">
+                <div class="relative"></div>
+                <p class="font-bold text-3xl tracking-tight sm:text-4xl sm:leading-none inline font-sans">FAQ</p>
+              </div>
+              <p class="text-gray-700 text-base md:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+            </div>
+            <div class="space-y-4">
+              <div class="border-b">
+                <div class="items-center w-full pt-4 pr-4 pb-4 pl-4 flex focus:outline-none">
+                  <p class="text-lg font-medium">How do I register on the platform?</p>
+                </div>
+                <div class="pt-0 pr-4 pb-4 pl-4">
+                  <p class="text-gray-700">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque rem aperiam, eaque ipsa quae.</p>
+                </div>
+              </div>
+              <div class="border-b">
+                <div class="items-center w-full pt-4 pr-4 pb-4 pl-4 flex focus:outline-none">
+                  <p class="text-lg font-medium">What is the ID verification process?</p>
+                </div>
+                <div class="pt-0 pr-4 pb-4 pl-4">
+                  <p class="text-gray-700">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque rem aperiam, eaque ipsa quae.</p>
+                </div>
+              </div>
+              <div class="border-b">
+                <div class="items-center w-full pt-4 pr-4 pb-4 pl-4 flex focus:outline-none">
+                  <p class="text-lg font-medium">How can I bid on houses?</p>
+                </div>
+                <div class="pt-0 pr-4 pb-4 pl-4">
+                  <p class="text-gray-700">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque rem aperiam, eaque ipsa quae.</p>
+                </div>
+              </div>
+              <div class="border-b">
+                <div class="items-center w-full pt-4 pr-4 pb-4 pl-4 flex focus:outline-none">
+                  <p class="text-lg font-medium">Can I track the status of my bids?</p>
+                </div>
+                <div class="pt-0 pr-4 pb-4 pl-4">
+                  <p class="text-gray-700">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque rem aperiam, eaque ipsa quae.</p>
+                </div>
+                <div class="items-center w-full pt-4 pr-4 pb-4 pl-4 flex focus:outline-none">
+                  <p class="text-lg font-medium">What happens if my bid is accepted?</p>
+                </div>
+                <div class="pt-0 pr-4 pb-4 pl-4">
+                  <p class="text-gray-700">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque rem aperiam, eaque ipsa quae.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      {/* End Breadcrumb Sections */}
-
-      {/* Our About Area */}
-      <section className="our-about pb90">
-        <div className="container">
-          <div className="row" data-aos="fade-up" data-aos-delay="300">
-            <div className="col-lg-6">
-              <h2>
-                We&apos;re on a Mission to Change{" "}
-                <br className="d-none d-lg-block" /> View of Real Estate Field.
-              </h2>
-            </div>
-            <div className="col-lg-6">
-              <p className="text mb25">
-                It doesn’t matter how organized you are — a surplus of toys will
-                always ensure your house is a mess waiting to happen.
-                Fortunately, getting kids on board with the idea of ditching
-                their stuff is a lot easier than it sounds.
+      </div>
+      <div class="w-full bg-white pt-20 pr-4 pb-20 pl-4 bg-gradient-to-b from-gray-100 to-white">
+        <div class="w-full mt-0 mr-auto mb-0 ml-auto text-left md:text-center md:w-3/4 lg:w-2/4">
+          <p class="mb-2 text-base font-semibold text-blue-900">Register today!</p>
+          <p class="mt-0 mr-0 mb-6 ml-0 text-3xl font-extrabold">Sign up for a free account to start bidding on houses</p>
+          <div class="mt-- mr-- mb-0 ml-- space-x-0 md:space-x-2">
+            <div class="bg-navy text-white font-bold pt-2 pr-4 pb-2 pl-4 rounded inline-flex items-center justify-center
+          w-full mb-2 hover:bg-blue-900 sm:w-auto sm:mb-0">
+              <p class="inline-flex text-white">Get Started</p>
+              <p class="inline-flex  w-4 h-4 ml-1">
+                <svg classname="text-white w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="white">
+                  <path fillrule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" cliprule="evenodd" />
+                </svg>
               </p>
-              <p className="text mb55">
-                Maecenas quis viverra metus, et efficitur ligula. Nam congue
-                augue et ex congue, sed luctus lectus congue. Integer convallis
-                condimentum sem. Duis elementum tortor eget condimentum tempor.
-                Praesent sollicitudin lectus ut pharetra pulvinar.
+            </div>
+            <div class="bg-gray-100 text-gray-800 font-bold pt-2 pr-4 pb-2 pl-4 rounded inline-flex items-center
+          justify-center w-full mb-2 hover:bg-gray-200 sm:w-auto sm:mb-0">
+              <p class="inline-flex">Contact</p>
+              <p class="inline-flex w-4 h-4 ml-1">
+                <svg classname="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor"><path
+                  fillrule="evenodd" d="M6.672 1.911a1 1 0 10-1.932.518l.259.966a1 1 0 001.932-.518l-.26-.966zM2.429 4.74a1
+              1 0 10-.517 1.932l.966.259a1 1 0 00.517-1.932l-.966-.26zm8.814-.569a1 1 0 00-1.415-1.414l-.707.707a1 1 0
+              101.415 1.415l.707-.708zm-7.071 7.072l.707-.707A1 1 0 003.465 9.12l-.708.707a1 1 0 001.415
+              1.415zm3.2-5.171a1 1 0 00-1.3 1.3l4 10a1 1 0 001.823.075l1.38-2.759 3.018 3.02a1 1 0
+              001.414-1.415l-3.019-3.02 2.76-1.379a1 1 0 00-.076-1.822l-10-4z" cliprule="evenodd" /></svg>
               </p>
-              <div className="row">
-                <Mission />
-              </div>
             </div>
           </div>
         </div>
-      </section>
-      {/* End Our About Area */}
+      </div>
 
-      {/* About Banner */}
-      <section className="our-about pt-0">
-        <div className="container">
-          <div className="row" data-aos="fade-up" data-aos-delay="300">
-            <div className="col-lg-12">
-              <div className="about-page-img">
-                <Image
-                  width={1206}
-                  height={515}
-                  priority
-                  className="w-100 h-100 cover"
-                  src="/images/about/about-page-banner.jpg"
-                  alt="about banner"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* End About Banner */}
 
-      {/* Funfact */}
-      <section className="pt-0">
-        <div className="container">
-          <div
-            className="row justify-content-center"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
-            <FunFact />
-          </div>
-        </div>
-      </section>
-      {/* End Funfact */}
 
-      {/* Exclusive Agents */}
-      <section className="pb90">
-        <div className="container">
-          <div className="row  justify-content-center">
-            <div className="col-auto">
-              <div
-                className="main-title"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <h2 className="title">Our Exclusive Agetns</h2>
-                <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
-                </p>
-              </div>
-            </div>
-            {/* End header */}
-          </div>
-          {/* End .row */}
-
-          <div className="row">
-            <div className="col-lg-12" data-aos="fade-up" data-aos-delay="300">
-              <div className="property-city-slider">
-                <Agents />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Exclusive Agents */}
-
-      {/* Abut intro */}
-      <section className="pt30 pb-0">
-        <div className="cta-banner3 bgc-thm-light mx-auto maxw1600 pt100 pt60-lg pb90 pb60-lg bdrs24 position-relative overflow-hidden mx20-lg">
-          <div className="container">
-            <div className="row">
-              <div
-                className="col-md-6 col-lg-5 pl30-md pl15-xs"
-                data-aos="fade-left"
-                data-aos-delay="300"
-              >
-                <div className="mb30">
-                  <h2 className="title text-capitalize">
-                    Let’s find the right <br className="d-none d-md-block" />{" "}
-                    selling option for you
-                  </h2>
-                </div>
-                <div className="why-chose-list style2">
-                  <Features />
-                </div>
-                <Link href="#" className="ud-btn btn-dark">
-                  Learn More
-                  <i className="fal fa-arrow-right-long" />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Abut intro */}
-
-      {/* Our Partners */}
-      <section className="our-partners">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12" data-aos="fade-up">
-              <div className="main-title text-center">
-                <h6>Trusted by the world’s best</h6>
-              </div>
-            </div>
-            <div className="col-lg-12 text-center">
-              <div
-                className="dots_none nav_none"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <Partner />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* End Our Partners */}
 
       {/* Our CTA */}
-      <CallToActions />
+      {/* <CallToActions /> */}
       {/* Our CTA */}
 
       {/* Start Our Footer */}
