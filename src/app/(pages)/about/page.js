@@ -31,9 +31,9 @@ const About = () => {
       <div >
         <section class="text-gray-600 body-font">
           <div class="mx-auto px-5 items-center justify-center container flex flex-col">
-          <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover mb-5 object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
+            <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover mb-5 object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
             <div class="text-center lg:w-2/3 w-full">
-              <p class="sm:text-4xl text-3xl mb-4 font-medium text-gray-900 title-font">Thuistekoop, the perfect place to buy
+              <p class="sm:text-4xl text-3xl mb-4 font-medium text-gray-900 title-font"><b>Thuistekoop</b>, the perfect place to buy
                 your home.</p>
               <p class="mb-8 leading-relaxed">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled.
                 Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami snackwave tilde
@@ -43,6 +43,35 @@ const About = () => {
             </div>
           </div>
         </section>
+
+
+        {/* text with images section */}
+        <div class="md:flex-row items-center justify-between bg-white flex flex-col p-10">
+          <div data-aos="fade-right" class="md:w-1/2">
+            <p class="font-semibold text-gray-700 text-2xl mb-6">About Us</p>
+            <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae id itaque
+              delectus voluptatum fugiat deserunt laudantium placeat fuga, corrupti perspiciatis quasi repellat eveniet, quos
+              aspernatur.</p>
+          </div>
+          <div data-aos="fade-left" class="md:w-1/2">
+            <img src="https://placehold.co/500x300" alt="About us image" class="border-2 border-indigo-200 rounded-lg
+        shadow-md"/>
+          </div>
+        </div>
+        <div class="md:flex-row items-center justify-between bg-white flex flex-col p-10">
+          <div data-aos="fade-left" class="md:w-1/2">
+            <img src="https://placehold.co/500x300" alt="About us image" class="border-2 border-indigo-200 rounded-lg
+        shadow-md"/>
+          </div>
+          <div data-aos="fade-right" class="md:w-1/2">
+            <p class="font-semibold text-gray-700 text-2xl mb-6">About Us</p>
+            <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae id itaque
+              delectus voluptatum fugiat deserunt laudantium placeat fuga, corrupti perspiciatis quasi repellat eveniet, quos
+              aspernatur.</p>
+          </div>
+        </div>
+
+        {/* steps section */}
         <section class="text-gray-600 body-font">
           <div class="px-5 py-2 mx-auto container flex flex-wrap">
             <div class="pt-10 pb-20 sm:items-center md:w-2/3 mx-auto flex relative">
@@ -127,6 +156,8 @@ const About = () => {
             </div>
           </div>
         </section>
+
+        {/* Feature section */}
         <section class="text-gray-600 body-font">
           <div class="px-5 py-12 mx-auto container">
             <div class="text-center w-full mb-20 flex flex-col">
@@ -177,7 +208,9 @@ const About = () => {
             </div>
           </div>
         </section>
-        <span>{/* statistics */}</span>
+
+
+        {/* statistics */}
       </div>
       <div class="bg-white pt-16 pr-4 pb-16 pl-4 md:px-24 lg:px-8 lg:py-20">
         <div class="mr-auto ml-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
@@ -245,11 +278,11 @@ const About = () => {
           <p class="mb-2 text-base font-semibold text-blue-900">Register today!</p>
           <p class="mt-0 mr-0 mb-6 ml-0 text-3xl font-extrabold">Sign up for a free account to start bidding on houses</p>
           <div class="mt-- mr-- mb-0 ml-- space-x-0 md:space-x-2">
-            <div class="bg-blue-900 text-white font-bold pt-2 pr-4 pb-2 pl-4 rounded inline-flex items-center justify-center
+            <div class="bg-navy text-white font-bold pt-2 pr-4 pb-2 pl-4 rounded inline-flex items-center justify-center
           w-full mb-2 hover:bg-blue-900 sm:w-auto sm:mb-0">
-              <p class="inline-flex">Get Started</p>
-              <p class="inline-flex w-4 h-4 ml-1">
-                <svg classname="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor"><path
+              <p class="inline-flex text-white">Get Started</p>
+              <p class="inline-flex  w-4 h-4 ml-1">
+                <svg classname="text-white w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="bg-white"><path
                   fillrule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586
               11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" cliprule="evenodd" /></svg>
               </p>
