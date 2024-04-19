@@ -29,7 +29,7 @@ const CallToActions = () => {
           <div className="row align-items-center">
             <div className="col-lg-7 col-xl-6 " data-aos="fade-right">
               <div className="cta-style1">
-                <h2 className="cta-title">Need help? Talk to our expert.</h2>
+                <h2 className="cta-title font-bold text-xl">Need help? Talk to our expert.</h2>
                 <p className="cta-text mb-0">
                   Talk to our experts or Browse through more properties.
                 </p>
@@ -43,7 +43,7 @@ const CallToActions = () => {
                   href="/contact"
                   className="ud-btn btn-transparent mr30 mr0-xs"
                 >
-                  Contact Us
+                  Email Us
                   <i className="fal fa-arrow-right-long" />
                 </Link>
                 <Link href="/contact" className="ud-btn btn-dark">
