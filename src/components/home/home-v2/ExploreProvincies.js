@@ -114,7 +114,7 @@ const ExploreProvincies = () => {
       >
         {cities.map((city) => (
           <SwiperSlide key={city.id}>
-            <div className="item">
+            <div className="item ">
               <Link href="/grid-default">
                 <div className="feature-style2 mb30">
                   <div className="feature-img">
@@ -127,7 +127,7 @@ const ExploreProvincies = () => {
                     />
                   </div>
                   <div className="feature-content pt20">
-                    <h6 className="title mb-1">{city.name}</h6>
+                    <h6 className="title mb-1 font-bold">{city.name}</h6>
                     <p className="text fz15">{city.number} Properties</p>
                   </div>
                 </div>

@@ -37,7 +37,7 @@ const Explore = () => {
               <Image width={316} height={150} src={item.icon} alt="icon" />
             </div>
             <div className="iconbox-content">
-              <h4 className="title">{item.title}</h4>
+              <h4 className="title font-bold text-xl">{item.title}</h4>
               <p className="text">{item.text}</p>
               <a href="#" className="ud-btn btn-thm3">
                 {item.linkText}

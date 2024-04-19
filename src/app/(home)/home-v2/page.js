@@ -65,10 +65,10 @@ const Home_V2 = () => {
           <div className="row align-items-center" data-aos="fade-up">
             <div className="col-lg-9">
               <div className="main-title2">
-                <h2 className="title">Discover Our New Listings</h2>
-                <p className="paragraph">
+                <h2 className="title text-3xl font-semibold text-black">Discover Our New Listings</h2>
+                {/* <p className="paragraph ">
                   Here are all our new listings!
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="col-lg-3">
@@ -103,10 +103,10 @@ const Home_V2 = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                <h2 className="title">Explore Provincies</h2>
-                <p className="paragraph">
+                <h2 className="title text-3xl font-semibold text-black">Explore Provincies</h2>
+                {/* <p className="paragraph">
                   Checkout our properties per province!
-                </p>
+                </p> */}
               </div>
             </div>
             {/* End header */}
@@ -159,7 +159,7 @@ const Home_V2 = () => {
                 data-wow-delay="300ms"
               >
                 <div className="main-title text-center">
-                  <h2 className="title">How can we help you?</h2>
+                  <h2 className="title text-3xl font-semibold text-black">How can we help you?</h2>
                   <p className="paragraph">
                     Buying or selling? We&apos;re here to help
                   </p>

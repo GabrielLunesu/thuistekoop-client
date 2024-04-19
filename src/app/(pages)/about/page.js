@@ -78,7 +78,7 @@ const About = () => {
                 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                 </div>
                 <div class="sm:pl-6 sm:mt-0 mt-6 flex-grow">
-                  <p class="font-medium text-gray-900 mb-1 text-xl title-font">Shooting Stars</p>
+                  <p class="font-medium text-gray-900 mb-1 text-xl title-font">Register your account</p>
                   <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard
                     cliche palo santo offal.</p>
                 </div>
@@ -98,7 +98,7 @@ const About = () => {
                 3l-3 9H2"/></svg>
                 </div>
                 <div class="sm:pl-6 sm:mt-0 mt-6 flex-grow">
-                  <p class="font-medium text-gray-900 mb-1 text-xl title-font">The Catalyzer</p>
+                  <p class="font-medium text-gray-900 mb-1 text-xl title-font">ID check.</p>
                   <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard
                     cliche palo santo offal.</p>
                 </div>
@@ -118,7 +118,7 @@ const About = () => {
                       r="3" /><path d="M12 22V8M5 12H2a10 10 0 0020 0h-3" /></svg>
                 </div>
                 <div class="sm:pl-6 sm:mt-0 mt-6 flex-grow">
-                  <p class="font-medium text-gray-900 mb-1 text-xl title-font">The 400 Blows</p>
+                  <p class="font-medium text-gray-900 mb-1 text-xl title-font">Start bidding!</p>
                   <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard
                     cliche palo santo offal.</p>
                 </div>
@@ -138,7 +138,7 @@ const About = () => {
                 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4" /></svg>
                 </div>
                 <div class="sm:pl-6 sm:mt-0 mt-6 flex-grow">
-                  <p class="font-medium text-gray-900 mb-1 text-xl title-font">Neptune</p>
+                  <p class="font-medium text-gray-900 mb-1 text-xl title-font">Bid accepted.</p>
                   <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard
                     cliche palo santo offal.</p>
                 </div>
