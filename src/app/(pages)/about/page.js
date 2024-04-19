@@ -28,7 +28,7 @@ const About = () => {
       {/* from here about us starts */}
 
       {/* hero */}
-      <div hashtml>
+      <div >
         <section class="text-gray-600 body-font">
           <div class="mx-auto px-5 items-center justify-center container flex flex-col">
           <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover mb-5 object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>

@@ -9,7 +9,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+      'navy' : '#212786' //thuis tekoop style blue!
+      },},
   },
   plugins: [],
 }
