@@ -6,7 +6,7 @@ import Form from "@/components/pages/contact/Form";
 import Office from "@/components/pages/contact/Office";
 
 export const metadata = {
-  title: "Contact  || Homez - Real Estate NextJS Template",
+  title: "Contact  || Thuistekoop",
 };
 
 const Contact = () => {
@@ -37,8 +37,8 @@ const Contact = () => {
         <div className="container">
           <div className="row d-flex align-items-end">
             <div className="col-lg-5 position-relative">
-              <div className="home8-contact-form default-box-shadow1 bdrs12 bdr1 p30 mb30-md bgc-white">
-                <h4 className="form-title mb25">
+              <div className="home8-contact-form default-box-shadow1 border-4 border-navy bdrs12 bdr1 p30 mb30-md bgc-white">
+                <h4 className="form-title mb25 font-bold text-xl">
                   Have questions? Get in touch!
                 </h4>
                 <Form />
@@ -47,7 +47,7 @@ const Contact = () => {
             {/* End .col */}
 
             <div className="col-lg-5 offset-lg-2">
-              <h2 className="mb30 text-capitalize">
+              <h2 className="mb30 font-bold text-lg text-capitalize">
                 We’d love to hear <br className="d-none d-lg-block" />
                 from you.
               </h2>
@@ -62,34 +62,6 @@ const Contact = () => {
         </div>
       </section>
       {/* End Our Contact Form */}
-
-      {/* Visit our Office */}
-      <section className="pt0 pb90 pb10-md">
-        <div className="container">
-          <div className="row">
-            <div
-              className="col-lg-6 m-auto"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div className="main-title text-center">
-                <h2 className="title">Visit Our Office</h2>
-                <p className="paragraph">
-                  Realton has more than 9,000 offices of all sizes and all
-                  potential of session.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* End .row */}
-
-          <div className="row" data-aos="fade-up" data-aos-delay="100">
-            <Office />
-          </div>
-          {/* End .row */}
-        </div>
-      </section>
-      {/* End Visit our Office */}
 
       {/* Our CTA */}
       <CallToActions />
