@@ -35,7 +35,7 @@ const Contact = () => {
               <div className="bg-navy rounded-lg shadow-md border border-gray-200 p-6 mb-6">
                 <p className="text-lg sm:text-xl text-white font-medium mb-2 text-center">Bezoekadres</p>
                 <p className="leading-relaxed text-white text-base mb-4 text-center">
-                  Thuistekoop B.V.<br />
+         
                   Huys Europa<br />
                   Piet 167<br />
                   1019 GM Amsterdam
