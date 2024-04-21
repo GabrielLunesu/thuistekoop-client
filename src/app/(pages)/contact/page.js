@@ -20,6 +20,54 @@ const Contact = () => {
       <MobileMenu />
       {/* End Mobile Nav  */}
 
+      {/* contact info section */}
+      <section className="text-gray-600">
+        <div className="px-5 mx-auto container">
+          <div className="text-center w-full mb-22 flex flex-col">
+            <p className="text-xs text-navy tracking-widest font-medium mb-1">contact</p>
+            <p className="sm:text-3xl text-2xl font-medium mb-4 text-gray-900">Any questions?</p>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn
+              asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably havent heard of them man bun deep
+              jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+          </div>
+          <div className="flex mt-5 flex-wrap">
+            <div className="xl:w-1/3 md:w-full lg:w-1/3 px-4">
+              <div className="bg-navy rounded-lg shadow-md border border-gray-200 p-6 mb-6">
+                <p className="text-lg sm:text-xl text-white font-medium mb-2 text-center">Bezoekadres</p>
+                <p className="leading-relaxed text-white text-base mb-4 text-center">
+                  Thuistekoop B.V.<br />
+                  Huys Europa<br />
+                  Piet 167<br />
+                  1019 GM Amsterdam
+                </p>
+              </div>
+            </div>
+            <div className="xl:w-1/3 md:w-full lg:w-1/3 px-4">
+              <div className="bg-navy rounded-lg shadow-md border border-gray-200 p-6 mb-6">
+                <p className="text-lg sm:text-xl text-white font-medium mb-2 text-center">Postadres</p>
+                <p className="leading-relaxed text-white text-base mb-4 text-center">
+                  Postbus 94591<br />
+                  1030 GN Amsterdam<br />
+                  Nederland
+                </p>
+              </div>
+            </div>
+            <div className="xl:w-1/3 md:w-full lg:w-1/3 px-4">
+              <div className="bg-navy rounded-lg shadow-md border border-gray-200 p-6 mb-6">
+                <p className="text-lg sm:text-xl text-white font-medium mb-2 text-center">Info</p>
+                <p className="leading-relaxed text-white text-base mb-4 text-center">
+                  <span>E-mail: <a href="mailto:info@thuistekoop.nl">info@thuistekoop.nl</a></span><br />
+                  <span>KvK: 8903428534085</span><br />
+                  <span>BTW: 342r432433</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
       {/* Our Contact With Map */}
       <section class="text-gray-600 body-font relative">
         <div class="absolute inset-0 bg-navy">
@@ -50,6 +98,8 @@ const Contact = () => {
           </div>
         </div>
       </section>
+
+
 
 
 
