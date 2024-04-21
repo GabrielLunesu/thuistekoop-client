@@ -10,41 +10,61 @@ import Copyright from "./Copyright";
 const Footer = () => {
   return (
     <>
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-5">
-            <div className="footer-widget mb-4 mb-lg-5">
-              <Link className="footer-logo" href="/">
+      <div className="container mx-auto px-4">
+        <footer className="text-gray-600 mb-16 body-font">
+          <div className="flex flex-col md:flex-row justify-between items-start">
+            <div className="w-full md:w-64 md:text-left text-center flex-shrink-0 mb-10 md:mb-0">
+              <Link href="/" className="footer-logo">
                 <Image
-                  width={288}
-                  height={124}
-                  className="mb40"
                   src="/images/thuistekoop-logo.svg"
                   alt=""
+                  width={258}
+                  height={104}
+                  className="mb-4"
                 />
               </Link>
-              <ContactMeta />
-              {/* <AppWidget /> */}
-              <div className="social-widget">
-                <h6 className="text-white mb20">Follow us on social media</h6>
-                <Social />
+            </div>
+            <div className="flex-grow flex flex-wrap ml-5 justify-center md:justify-start mb-10 md:-mb-0">
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4 mb-10 md:mb-0 mt-4 md:mt-12">
+                <p className="font-bold text-gray-900 tracking-widest text-sm mb-3 title-font">Info</p>
+                <nav className="mb-10 list-none">
+                  <li><a className="text-gray-600 hover:text-gray-800">info@thuistekoop.nl</a></li>
+                  <li><a className="text-gray-600 hover:text-gray-800">0618181818</a></li>
+                  <li><a className="text-gray-600 hover:text-gray-800">@thuistekoop</a></li>
+                </nav>
+              </div>
+              <div className="lg:w-1/4 md:w-1/2 w-full px-4 mb-10 md:mb-0 mt-4 md:mt-12">
+                <p className="font-bold text-gray-900 tracking-widest text-sm mb-3 title-font">Voor verkopers</p>
+                <nav className="mb-10 list-none">
+                  <li><a className="text-gray-600 hover:text-gray-800">First Link</a></li>
+                  <li><a className="text-gray-600 hover:text-gray-800">Second Link</a></li>
+                  <li><a className="text-gray-600 hover:text-gray-800">Third Link</a></li>
+                  <li><a className="text-gray-600 hover:text-gray-800">Fourth Link</a></li>
+                </nav>
+              </div>
+              <div className="lg:w-1/4 md:w-1/2 w-full px-4 mb-10 md:mb-0 mt-4 md:mt-12">
+                <p className="font-bold text-gray-900 tracking-widest text-sm mb-3 title-font">Snel naar</p>
+                <nav className="mb-10 list-none">
+                  <li><a className="text-gray-600 hover:text-gray-800">First Link</a></li>
+                  <li><a className="text-gray-600 hover:text-gray-800">Second Link</a></li>
+                  <li><a className="text-gray-600 hover:text-gray-800">Third Link</a></li>
+                  <li><a className="text-gray-600 hover:text-gray-800">Fourth Link</a></li>
+                </nav>
+              </div>
+              <div className="lg:w-1/4 md:w-1/2 w-full px-4 mb-10 md:mb-0 mt-4 md:mt-12">
+                <p className="font-bold text-gray-900 tracking-widest text-sm mb-3 title-font">Meer over</p>
+                <nav className="mb-10 list-none">
+                  <li><a className="text-gray-600 hover:text-gray-800">First Link</a></li>
+                  <li><a className="text-gray-600 hover:text-gray-800">Second Link</a></li>
+                  <li><a className="text-gray-600 hover:text-gray-800">Third Link</a></li>
+                  <li><a className="text-gray-600 hover:text-gray-800">Fourth Link</a></li>
+                </nav>
               </div>
             </div>
           </div>
-          {/* End .col-lg-5 */}
-
-          <div className="col-lg-7">
-            <div className="footer-widget mb-4 mb-lg-5">
-              <Subscribe />
-              <div className="row justify-content-between">
-                <MenuWidget />
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* End .row */}
+        </footer>
       </div>
-      {/* End .container */}
+
 
       <Copyright />
       {/* End copyright */}
@@ -53,3 +73,13 @@ const Footer = () => {
 };
 
 export default Footer;
+
+{/* <Link className="footer-logo" href="/">
+<Image
+  width={288}
+  height={124}
+  className="mb40"
+  src="/images/thuistekoop-logo.svg"
+  alt=""
+/>
+</Link> */}
