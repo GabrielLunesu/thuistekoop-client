@@ -5,14 +5,16 @@ import ApartmentType from "@/components/home/home-v2/ApartmentType";
 import Explore from "@/components/home/home-v2/Explore";
 import ExploreProvincies from "@/components/home/home-v2/ExploreProvincies";
 import NewListings from "@/components/home/home-v2/NewListings";
-import Header from "@/components/home/home-v2/Header";
+import FindHomeBlock from "@/components/home/home-v2/FindHomeBlock";
+import Header from "@/components/home/home-v2/Header-1";
 import Testimonial from "@/components/home/home-v2/Testimonial";
 import About from "@/components/home/home-v2/about";
-import Hero from "@/components/home/home-v2/hero";
+import Hero from "@/components/home/home-v2/hero-1";
 import React from "react";
 import Footer from "@/components/common/default-footer";
 import Cta from "@/components/home/home-v2/Cta";
 import DefaultHeader from "@/components/common/DefaultHeader";
+import Image from "next/image";
 
 import Link from "next/link";
 
@@ -24,7 +26,7 @@ const Home_V2 = () => {
   return (
     <>
       {/* Main Header Nav */}
-      <DefaultHeader />
+      <Header />
       {/* End Main Header Nav */}
 
       {/* Mobile Nav  */}
@@ -32,7 +34,7 @@ const Home_V2 = () => {
       {/* End Mobile Nav  */}
 
       {/* Home Banner Style V2 */}
-      <section className="home-banner-style2 p0">
+      {/* <section className="home-banner-style2 p0">
         <div className="home-style2">
           <div className="container maxw1600">
             <div className="home2-hero-banner bdrs12"></div>
@@ -42,10 +44,65 @@ const Home_V2 = () => {
               </div>
             </div>
           </div>
+       
+        </div>
+      </section> */}
+      {/* End Home Banner Style V2 */}
+
+       {/* Home Banner Style V6 */}
+       <section className="home-banner-style6 p0">
+        <div className="home-style1">
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-10">
+                <Hero />
+              </div>
+            </div>
+          </div>
           {/* End .container */}
         </div>
       </section>
-      {/* End Home Banner Style V2 */}
+      {/* End Home Banner Style V6 */}
+
+       {/* Explore Apartment Home */}
+       <section className="pb90 pb30-md">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-6" data-aos="fade-up" data-aos-delay="100">
+              <div className="about-box2">
+                <h4 className="title">
+                  The New Way to Find <br className="d-none d-xl-block" /> Your
+                  Home
+                </h4>
+                <p className="text fz15">
+                  From as low as $10 per day with{" "}
+                  <br className="d-none d-xl-block" /> limited time offer
+                  discounts.
+                </p>
+                <Link href="/grid-full-1-col-v1" className="ud-btn btn-thm">
+                  How İt Works
+                  <i className="fal fa-arrow-right-long" />
+                </Link>
+                <Image
+                  width={296}
+                  height={318}
+                  className="img-1 cover"
+                  src="/images/about/home6-about-1.png"
+                  alt="about"
+                />
+              </div>
+            </div>
+            {/* End .col-6 */}
+
+            <div className="col-xl-6" data-aos="fade-up" data-aos-delay="300">
+              <div className="row">
+                <FindHomeBlock />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Explore Apartment Home */}
 
       {/* Explore Apartment */}
       <section className="pb90 pb30-md">
