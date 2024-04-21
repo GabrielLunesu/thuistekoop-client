@@ -12,7 +12,7 @@ import Hero from "@/components/home/home-v2/hero";
 import React from "react";
 import Footer from "@/components/common/default-footer";
 import Cta from "@/components/home/home-v2/Cta";
-
+import DefaultHeader from "@/components/common/DefaultHeader";
 
 import Link from "next/link";
 
@@ -24,7 +24,7 @@ const Home_V2 = () => {
   return (
     <>
       {/* Main Header Nav */}
-      <Header />
+      <DefaultHeader />
       {/* End Main Header Nav */}
 
       {/* Mobile Nav  */}
