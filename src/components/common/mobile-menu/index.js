@@ -73,11 +73,10 @@ const MobileMenu = () => {
 
             <nav className="mt-4">
               <a href="/" className="block py-2 text-xl text-gray-800 font-bold hover:bg-gray-100 rounded">Home</a>
-              <a href="/listings" className="block py-2 text-xl text-gray-800 font-bold hover:bg-gray-100 rounded">Listings</a>
-              <a href="/property" className="block py-2 text-xl text-gray-800 font-bold hover:bg-gray-100 rounded">Property</a>
-              <a href="/dashboard" className="block py-2 text-xl text-gray-800 font-bold hover:bg-gray-100 rounded">Dashboard</a>
-              <a href="/blog" className="block py-2 text-xl text-gray-800 font-bold hover:bg-gray-100 rounded">Blog</a>
-              <a href="/pages" className="block py-2 text-xl text-gray-800 font-bold hover:bg-gray-100 rounded">Pages</a>
+              <a href="/banner-search-v2" className="block py-2 text-xl text-gray-800 font-bold hover:bg-gray-100 rounded">Listings</a>
+              <a href="/about" className="block py-2 text-xl text-gray-800 font-bold hover:bg-gray-100 rounded">About us</a>
+              <a href="/contact" className="block py-2 text-xl text-gray-800 font-bold hover:bg-gray-100 rounded">Contact</a>
+        
             </nav>
 
             <div className="mt-4">
