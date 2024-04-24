@@ -7,6 +7,7 @@ import "../../public/scss/main.scss";
 import { DM_Sans, Poppins } from "next/font/google";
 import { useEffect } from "react";
 
+
 if (typeof window !== "undefined") {
   import("bootstrap");
 }

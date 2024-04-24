@@ -263,43 +263,84 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div class="w-full bg-white pt-20 pr-4 pb-20 pl-4 bg-gradient-to-b from-gray-100 to-white">
-        <div class="w-full mt-0 mr-auto mb-0 ml-auto text-left md:text-center md:w-3/4 lg:w-2/4">
-          <p class="mb-2 text-base font-semibold text-blue-900">Register today!</p>
-          <p class="mt-0 mr-0 mb-6 ml-0 text-3xl font-extrabold">Sign up for a free account to start bidding on houses</p>
-          <div class="mt-- mr-- mb-0 ml-- space-x-0 md:space-x-2">
-            <div class="bg-navy text-white font-bold pt-2 pr-4 pb-2 pl-4 rounded inline-flex items-center justify-center
-          w-full mb-2 hover:bg-blue-900 sm:w-auto sm:mb-0">
-              <p class="inline-flex text-white">Get Started</p>
-              <p class="inline-flex  w-4 h-4 ml-1">
-                <svg classname="text-white w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="white">
-                  <path fillrule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" cliprule="evenodd" />
-                </svg>
-              </p>
-            </div>
-            <div class="bg-gray-100 text-gray-800 font-bold pt-2 pr-4 pb-2 pl-4 rounded inline-flex items-center
-          justify-center w-full mb-2 hover:bg-gray-200 sm:w-auto sm:mb-0">
-              <p class="inline-flex">Contact</p>
-              <p class="inline-flex w-4 h-4 ml-1">
-                <svg classname="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor"><path
-                  fillrule="evenodd" d="M6.672 1.911a1 1 0 10-1.932.518l.259.966a1 1 0 001.932-.518l-.26-.966zM2.429 4.74a1
-              1 0 10-.517 1.932l.966.259a1 1 0 00.517-1.932l-.966-.26zm8.814-.569a1 1 0 00-1.415-1.414l-.707.707a1 1 0
-              101.415 1.415l.707-.708zm-7.071 7.072l.707-.707A1 1 0 003.465 9.12l-.708.707a1 1 0 001.415
-              1.415zm3.2-5.171a1 1 0 00-1.3 1.3l4 10a1 1 0 001.823.075l1.38-2.759 3.018 3.02a1 1 0
-              001.414-1.415l-3.019-3.02 2.76-1.379a1 1 0 00-.076-1.822l-10-4z" cliprule="evenodd" /></svg>
-              </p>
+
+
+       {/* Our CTA */}
+
+       <div class="py-16">
+        <div class="container m-auto space-y-8 px-6 text-black md:px-12 lg:px-20">
+          <div class="flex items-center justify-center -space-x-2">
+            <img
+              loading="lazy"
+              width="220"
+              height="220"
+              src="https://img.icons8.com/color/96/circled-user-male-skin-type-1-2--v1.png"
+              alt="member photo"
+              class="h-8 w-8 rounded-full object-cover"
+            />
+            <img
+              loading="lazy"
+              width="220"
+              height="220"
+              src="https://img.icons8.com/color/96/circled-user-male-skin-type-1-2--v1.png"
+              alt="member photo"
+              class="h-12 w-12 rounded-full object-cover"
+            />
+            <img
+              loading="lazy"
+              width="220"
+              height="220"
+              src="https://img.icons8.com/color/96/circled-user-male-skin-type-1-2--v1.png"
+              alt="member photo"
+              class="z-10 h-16 w-16 rounded-full object-cover"
+            />
+            <img
+              loading="lazy"
+              width="220"
+              height="220"
+              src="https://img.icons8.com/color/96/circled-user-male-skin-type-1-2--v1.png"
+              alt="member photo"
+              class="relative h-12 w-12 rounded-full object-cover"
+            />
+            <img
+              loading="lazy"
+              width="220"
+              height="220"
+              src="https://img.icons8.com/color/96/circled-user-male-skin-type-1-2--v1.png"
+              alt="member photo"
+              class="h-8 w-8 rounded-full object-cover"
+            />
+          </div>
+          <div class="m-auto space-y-6 md:w-8/12 lg:w-7/12">
+            <h1 class="text-center text-4xl font-bold text-black md:text-5xl">Get Started now</h1>
+            <p class="text-center text-xl text-black">
+              Be part of millions people around the world using tailus in modern User Interfaces.
+            </p>
+            <div class="flex flex-wrap justify-center gap-6">
+              <a href="/banner-search-v2">
+                <button class="bg-navy hover:bg-blue-800 active:bg-blue-700 text-white font-semibold py-3 px-8 rounded-full shadow-md transform transition-transform duration-300 hover:scale-105">
+                  Check all listings
+                </button>
+              </a>
+
+              <a href="/contact">
+                <button class="text-navy hover:text-blue-800 active:text-blue-700 font-semibold py-3 px-6 border border-blue-900 rounded-full shadow-md transform transition-transform duration-300 hover:scale-105">
+                  Contact
+                </button>
+              </a>
+
             </div>
           </div>
         </div>
       </div>
 
+      {/* End Our CTA */}
 
 
 
-      {/* Our CTA */}
-      {/* <CallToActions /> */}
-      {/* Our CTA */}
 
+
+  
       {/* Start Our Footer */}
       <section className="footer-style1 pt60 pb-0">
         <Footer />
