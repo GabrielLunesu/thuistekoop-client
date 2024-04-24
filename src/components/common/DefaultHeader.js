@@ -68,7 +68,7 @@ const DefaultHeader = () => {
                 <div className="d-flex align-items-center">
                   <a
                     href="#"
-                    className="login-info d-flex align-items-cente"
+                    className="login-info mr-5 d-flex align-items-cente"
                     data-bs-toggle="modal"
                     data-bs-target="#loginSignupModal"
                     role="button"
@@ -76,13 +76,13 @@ const DefaultHeader = () => {
                     <i className="far fa-user-circle fz16 me-2" />{" "}
                     <span className="d-none d-xl-block">Login / Register</span>
                   </a>
-                  <Link
+                  {/* <Link
                     className="ud-btn btn-white add-property bdrs60 mx-2 mx-xl-4"
                     href="/dashboard-add-property"
                   >
                     Add Property
                     <i className="fal fa-arrow-right-long" />
-                  </Link>
+                  </Link> */} 
                   <a
                     className="sidemenu-btn filter-btn-right"
                     href="#"
